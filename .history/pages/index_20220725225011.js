@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import { ethers } from "ethers";
 import "react-toastify/dist/ReactToastify.css";
-import abi from "../utils/CoffeePortal.json";
+
 import Head from "next/head";
 
 
@@ -10,7 +10,7 @@ export default function Home() {
   /**
    * Create a variable here that holds the contract address after you deploy!
    */
-  const contractAddress = "0xc5694d68f6Ff28e59A8BEB59066cEa647779F359";
+  const contractAddress = "";
 
   /**
    * Create a variable here that references the abi content!
